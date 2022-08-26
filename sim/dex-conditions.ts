@@ -75,6 +75,7 @@ export interface EventMethods {
 	onSetStatus?: (
 		this: Battle, status: Condition, target: Pokemon, source: Pokemon, effect: Effect
 	) => boolean | null | void;
+	onSetTerrain?: (this: Battle, target: Pokemon, source: Pokemon, terrain: Condition) => boolean | void;
 	onSetWeather?: (this: Battle, target: Pokemon, source: Pokemon, weather: Condition) => boolean | void;
 	onStallMove?: (this: Battle, pokemon: Pokemon) => boolean | void;
 	onSwitchIn?: (this: Battle, pokemon: Pokemon) => void;
@@ -83,6 +84,8 @@ export interface EventMethods {
 	onTakeItem?: (
 		(this: Battle, item: Item, pokemon: Pokemon, source: Pokemon, move?: ActiveMove) => boolean | void
 	) | boolean;
+	onTerrain?: (this: Battle, pokemon: Pokemon) => void;
+	onTerrainStart?: (this: Battle, target: Pokemon, source: Pokemon, terrain: Condition) => void;
 	onWeatherStart?: (this: Battle, target: Pokemon, source: Pokemon, weather: Condition) => void;
 	onTrapPokemon?: (this: Battle, pokemon: Pokemon) => void;
 	onTryAddVolatile?: (
@@ -175,6 +178,7 @@ export interface EventMethods {
 	onFoeSetStatus?: (
 		this: Battle, status: Condition, target: Pokemon, source: Pokemon, effect: Effect
 	) => boolean | null | void;
+	onFoeSetTerrain?: (this: Battle, target: Pokemon, source: Pokemon, terrain: Condition) => boolean | void;
 	onFoeSetWeather?: (this: Battle, target: Pokemon, source: Pokemon, weather: Condition) => boolean | void;
 	onFoeStallMove?: (this: Battle, pokemon: Pokemon) => boolean | void;
 	onFoeSwitchIn?: (this: Battle, pokemon: Pokemon) => void;
@@ -280,6 +284,7 @@ export interface EventMethods {
 	onSourceSetStatus?: (
 		this: Battle, status: Condition, target: Pokemon, source: Pokemon, effect: Effect
 	) => boolean | null | void;
+	onSourceSetTerrain?: (this: Battle, target: Pokemon, source: Pokemon, terrain: Condition) => boolean | void;
 	onSourceSetWeather?: (this: Battle, target: Pokemon, source: Pokemon, weather: Condition) => boolean | void;
 	onSourceStallMove?: (this: Battle, pokemon: Pokemon) => boolean | void;
 	onSourceSwitchIn?: (this: Battle, pokemon: Pokemon) => void;
@@ -383,6 +388,7 @@ export interface EventMethods {
 	onAnySetStatus?: (
 		this: Battle, status: Condition, target: Pokemon, source: Pokemon, effect: Effect
 	) => boolean | null | void;
+	onAnySetTerrain?: (this: Battle, target: Pokemon, source: Pokemon, terrain: Condition) => boolean | void;
 	onAnySetWeather?: (this: Battle, target: Pokemon, source: Pokemon, weather: Condition) => boolean | void;
 	onAnyStallMove?: (this: Battle, pokemon: Pokemon) => boolean | void;
 	onAnySwitchIn?: (this: Battle, pokemon: Pokemon) => void;
@@ -551,6 +557,7 @@ export interface PokemonEventMethods extends EventMethods {
 	onAllySetStatus?: (
 		this: Battle, status: Condition, target: Pokemon, source: Pokemon, effect: Effect
 	) => boolean | null | void;
+	onAllySetTerrain?: (this: Battle, target: Pokemon, source: Pokemon, terrain: Condition) => boolean | void;
 	onAllySetWeather?: (this: Battle, target: Pokemon, source: Pokemon, weather: Condition) => boolean | void;
 	onAllyStallMove?: (this: Battle, pokemon: Pokemon) => boolean | void;
 	onAllySwitchIn?: (this: Battle, pokemon: Pokemon) => void;
@@ -616,7 +623,7 @@ export type ModdedConditionData = ConditionData & {inherit?: true};
 
 export class Condition extends BasicEffect implements
 	Readonly<BasicEffect & SideConditionData & FieldConditionData & PokemonConditionData> {
-	declare readonly effectType: 'Condition' | 'Weather' | 'Status';
+	declare readonly effectType: 'Condition' | 'Terrain' | 'Weather' | 'Status';
 	declare readonly counterMax?: number;
 
 	declare readonly durationCallback?: (this: Battle, target: Pokemon, source: Pokemon, effect: Effect | null) => number;
@@ -633,7 +640,7 @@ export class Condition extends BasicEffect implements
 		super(data);
 		// eslint-disable-next-line @typescript-eslint/no-this-alias
 		data = this;
-		this.effectType = (['Weather', 'Status'].includes(data.effectType) ? data.effectType : 'Condition');
+		this.effectType = (['Terrain' | 'Weather', 'Status'].includes(data.effectType) ? data.effectType : 'Condition');
 	}
 }
 

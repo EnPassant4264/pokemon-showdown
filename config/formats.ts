@@ -898,6 +898,41 @@ export const Formats: FormatList = [
 		},
 	},
 	{
+		name: "[Gen 8] Earth & Sky OU",
+		threads: [
+			`&bullet; <a href="https://docs.google.com/spreadsheets/d/1CL_DALzaisaMwr2709KMleWU6ntxBPnzfHukN0SR5Ss">Competitive Cheat Sheet</a>`,
+		],
+		ruleset: [ 'Earth & Sky',],
+		mod: 'earthsky',
+		banlist: [
+			'Alakazam-Mega', 'Arceus', 'Blaziken', 'Blastoise-Mega', 'Darkrai', 'Deoxys-Attack', 'Deoxys-Base', 'Deoxys-Speed',
+			'Dialga', 'Eternatus', 'Genesect', 'Gengar-Mega', 'Giratina', 'Groudon', 'Ho-Oh', 'Kangaskhan-Mega', 'Kyogre',
+			'Kyurem-Black', 'Kyurem-White', 'Landorus-Base', 'Lucario-Mega', 'Lugia', 'Lunala', 'Marshadow', 'Mewtwo',
+			'Naganadel', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Palkia', 'Pheromosa', 'Rayquaza', 'Reshiram',
+			'Salamence-Mega', 'Shaymin-Sky', 'Solgaleo', 'Xerneas', 'Yveltal', 'Zacian', 'Zamazenta', 'Zekrom',
+			/*'ES Uber', */'Oceides', 'Hatar', 'Zuros', 'Norphaval', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass',
+		],
+	},
+	{
+		name: "[Gen 8] Earth & Sky Egelas Dex",
+		threads: [
+			`&bullet; <a href="https://docs.google.com/spreadsheets/d/1CL_DALzaisaMwr2709KMleWU6ntxBPnzfHukN0SR5Ss">Competitive Cheat Sheet</a>`,
+			`&bullet; <a href="https://docs.google.com/spreadsheets/u/1/d/1N_kSuPC2XifKplZ9huLVlxmkYv3fCmt2">Egelan Pokedex</a>`,
+		],
+		ruleset: [ '[Gen 8] Earth & Sky OU', 'Egelas Pokedex',],
+		mod: 'earthsky',
+	},
+	{
+		name: "[Gen 8] Earth & Sky Ubers",
+		threads: [
+			`&bullet; <a href="https://docs.google.com/spreadsheets/d/1CL_DALzaisaMwr2709KMleWU6ntxBPnzfHukN0SR5Ss">Competitive Cheat Sheet</a>`,
+		],
+		ruleset: [ 'Earth & Sky',],
+		banlist: [],
+		mod: 'earthsky',
+		teambuilderFormat: 'Ubers',
+	},
+	{
 		name: "[Gen 8] Free-For-All",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3681641/">Free-For-All</a>`,
@@ -933,7 +968,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8bdsp',
 		team: 'random',
-		ruleset: ['[Gen 8] Random Battle', '!PotD'],
+		ruleset: ['[Gen 8] Random Battle', '!PotD', 'Sketch Gen 8 Moves'],
 	},
 	{
 		name: "[Gen 8 BDSP] OU",
@@ -944,7 +979,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8bdsp',
-		ruleset: ['Standard'],
+		ruleset: ['Standard', 'Sketch Gen 8 Moves'],
 		banlist: ['Uber', 'Arena Trap', 'Drizzle', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass'],
 	},
 	{
@@ -955,7 +990,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8bdsp',
 		searchShow: false,
-		ruleset: ['Standard'],
+		ruleset: ['Standard', 'Sketch Gen 8 Moves'],
 		banlist: ['AG', 'Baton Pass'],
 	},
 	{
@@ -1010,7 +1045,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8bdsp',
 		searchShow: false,
-		ruleset: ['Little Cup', 'Standard'],
+		ruleset: ['Little Cup', 'Standard', 'Sketch Gen 8 Moves'],
 		banlist: ['Gligar', 'Meditite', 'Misdreavus', 'Munchlax', 'Murkrow', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Moody', 'Baton Pass', 'Sticky Web'],
 	},
 	{
@@ -1041,7 +1076,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8bdsp',
 		gameType: 'doubles',
-		ruleset: ['Standard Doubles'],
+		ruleset: ['Standard Doubles', 'Sketch Gen 8 Moves'],
 		banlist: ['DUber', 'Dark Void'],
 	},
 	{
@@ -1053,7 +1088,7 @@ export const Formats: FormatList = [
 		mod: 'gen8bdsp',
 		gameType: 'doubles',
 		searchShow: false,
-		ruleset: ['Flat Rules', 'Min Source Gen = 8'],
+		ruleset: ['Flat Rules', 'Min Source Gen = 8', 'Sketch Gen 8 Moves'],
 	},
 
 	// Challengeable OMs
