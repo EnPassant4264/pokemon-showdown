@@ -177,6 +177,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 162,
 		gen: 3,
+		rating: 3,
 	},
 	airballoon: {
 		name: "Air Balloon",
@@ -311,6 +312,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 153,
 		gen: 3,
+		rating: 1,
 	},
 	assaultvest: {
 		name: "Assault Vest",
@@ -332,6 +334,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 640,
 		gen: 6,
+		rating: 3,
 	},
 	audinite: {
 		name: "Audinite",
@@ -355,6 +358,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 2344,
 		gen: 9,
+		rating: 0,
 	},
 	babiriberry: {
 		name: "Babiri Berry",
@@ -427,6 +431,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 183,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	berryjuice: {
 		name: "Berry Juice",
@@ -453,6 +458,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1111,
 		gen: 8,
+		rating: 0,
 	},
 	bignugget: {
 		name: "Big Nugget",
@@ -462,6 +468,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 581,
 		gen: 5,
+		rating: 1,
 	},
 	bigroot: {
 		name: "Big Root",
@@ -478,6 +485,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 296,
 		gen: 4,
+		rating: 1,
 	},
 	bindingband: {
 		name: "Binding Band",
@@ -488,6 +496,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		// implemented in statuses
 		num: 544,
 		gen: 5,
+		rating: 1,
 	},
 	blackbelt: {
 		name: "Black Belt",
@@ -597,6 +606,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 165,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	blunderpolicy: {
 		name: "Blunder Policy",
@@ -643,6 +653,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 795,
 		gen: 7,
+		rating: 0,
 	},
 	brightpowder: {
 		name: "Bright Powder",
@@ -835,6 +846,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 149,
 		gen: 3,
+		rating: 1,
 	},
 	cherishball: {
 		name: "Cherish Ball",
@@ -913,6 +925,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1254,
 		gen: 8,
+		rating: 0,
 	},
 	choiceband: {
 		name: "Choice Band",
@@ -936,6 +949,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		isChoice: true,
 		num: 220,
+		rating: 3,
 		gen: 3,
 	},
 	choicescarf: {
@@ -960,6 +974,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		isChoice: true,
 		num: 287,
 		gen: 4,
+		rating: 3,
 	},
 	choicespecs: {
 		name: "Choice Specs",
@@ -984,6 +999,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		isChoice: true,
 		num: 297,
 		gen: 4,
+		rating: 3,
 	},
 	chopleberry: {
 		name: "Chople Berry",
@@ -1018,6 +1034,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 100,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	clearamulet: {
 		name: "Clear Amulet",
@@ -1050,6 +1067,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1112,
 		gen: 8,
+		rating: 0,
 	},
 	cobaberry: {
 		name: "Coba Berry",
@@ -1132,6 +1150,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 175,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	coverfossil: {
 		name: "Cover Fossil",
@@ -1142,6 +1161,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 572,
 		gen: 5,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	covertcloak: {
 		name: "Covert Cloak",
@@ -1164,6 +1184,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1253,
 		gen: 8,
+		rating: 0,
 	},
 	custapberry: {
 		name: "Custap Berry",
@@ -1249,6 +1270,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 109,
 		gen: 4,
+		rating: 0,
 	},
 	decidiumz: {
 		name: "Decidium Z",
@@ -1309,6 +1331,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 280,
 		gen: 4,
+		rating: 1,
 	},
 	diancite: {
 		name: "Diancite",
@@ -1340,6 +1363,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 102,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	dousedrive: {
 		name: "Douse Drive",
@@ -1430,6 +1454,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 235,
 		gen: 2,
+		rating: 0,
 	},
 	dragoniumz: {
 		name: "Dragonium Z",
@@ -1478,6 +1503,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 324,
 		gen: 4,
+		rating: 0,
 	},
 	durinberry: {
 		name: "Durin Berry",
@@ -1491,6 +1517,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 182,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	duskball: {
 		name: "Dusk Ball",
@@ -1507,6 +1534,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 108,
 		gen: 4,
+		rating: 0,
 	},
 	earthplate: {
 		name: "Earth Plate",
@@ -1601,6 +1629,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 322,
 		gen: 4,
+		rating: 0,
 	},
 	electricgem: {
 		name: "Electric Gem",
@@ -1687,6 +1716,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onEat() { },
 		num: 208,
 		gen: 3,
+		rating: 1,
 	},
 	eviolite: {
 		name: "Eviolite",
@@ -1708,6 +1738,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 538,
 		gen: 5,
+		rating: 3,
 	},
 	expertbelt: {
 		name: "Expert Belt",
@@ -1722,6 +1753,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 268,
 		gen: 4,
+		rating: 3,
 	},
 	fairiumz: {
 		name: "Fairium Z",
@@ -1854,6 +1886,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 159,
 		gen: 3,
+		rating: 3,
 	},
 	firegem: {
 		name: "Fire Gem",
@@ -1972,6 +2005,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 539,
 		gen: 5,
+		rating: 1,
 	},
 	flowersweet: {
 		name: "Flower Sweet",
@@ -1981,6 +2015,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1113,
 		gen: 8,
+		rating: 0,
 	},
 	flyinggem: {
 		name: "Flying Gem",
@@ -1995,6 +2030,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 556,
 		gen: 5,
 		isNonstandard: "Past",
+		rating: 3,
 	},
 	flyingmemory: {
 		name: "Flying Memory",
@@ -2039,6 +2075,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 230,
 		gen: 2,
+		rating: 1,
 	},
 	focussash: {
 		name: "Focus Sash",
@@ -2056,6 +2093,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 275,
 		gen: 4,
+		rating: 3,
 	},
 	fossilizedbird: {
 		name: "Fossilized Bird",
@@ -2066,6 +2104,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 1105,
 		gen: 8,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	fossilizeddino: {
 		name: "Fossilized Dino",
@@ -2076,6 +2115,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 1108,
 		gen: 8,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	fossilizeddrake: {
 		name: "Fossilized Drake",
@@ -2086,6 +2126,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 1107,
 		gen: 8,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	fossilizedfish: {
 		name: "Fossilized Fish",
@@ -2096,6 +2137,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 1106,
 		gen: 8,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	friendball: {
 		name: "Friend Ball",
@@ -2114,6 +2156,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 316,
 		gen: 4,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	galaricacuff: {
 		name: "Galarica Cuff",
@@ -2123,6 +2166,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1582,
 		gen: 8,
+		isNonstandard: "Unobtainable",
+		rating: 0,
 	},
 	galaricawreath: {
 		name: "Galarica Wreath",
@@ -2132,6 +2177,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1592,
 		gen: 8,
+		isNonstandard: "Unobtainable",
+		rating: 0,
 	},
 	galladite: {
 		name: "Galladite",
@@ -2273,6 +2320,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 796,
 		gen: 7,
+		rating: 0,
 	},
 	grassgem: {
 		name: "Grass Gem",
@@ -2356,6 +2404,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onEat: false,
 		num: 173,
 		gen: 3,
+		rating: 0,
 	},
 	gripclaw: {
 		name: "Grip Claw",
@@ -2550,6 +2599,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1120,
 		gen: 8,
+		rating: 3,
 		// Hazard Immunity implemented in moves.ts
 	},
 	helixfossil: {
@@ -2561,6 +2611,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 101,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	heracronite: {
 		name: "Heracronite",
@@ -2587,6 +2638,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onEat: false,
 		num: 172,
 		gen: 3,
+		rating: 0,
 	},
 	houndoominite: {
 		name: "Houndoominite",
@@ -2627,6 +2679,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 163,
 		gen: 3,
+		rating: 3,
 	},
 	icegem: {
 		name: "Ice Gem",
@@ -2666,6 +2719,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 849,
 		gen: 7,
+		rating: 0,
 	},
 	icicleplate: {
 		name: "Icicle Plate",
@@ -2756,6 +2810,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 278,
 		gen: 4,
+		rating: 1,
 	},
 	ironplate: {
 		name: "Iron Plate",
@@ -2795,6 +2850,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onEat() { },
 		num: 211,
 		gen: 4,
+		rating: 1,
 	},
 	jawfossil: {
 		name: "Jaw Fossil",
@@ -2805,6 +2861,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 710,
 		gen: 6,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	kasibberry: {
 		name: "Kasib Berry",
@@ -2885,6 +2942,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onEat: false,
 		num: 170,
 		gen: 3,
+		rating: 0,
 	},
 	kangaskhanite: {
 		name: "Kangaskhanite",
@@ -2943,6 +3001,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onFractionalPriority: -0.1,
 		num: 279,
 		gen: 4,
+		rating: 0,
 	},
 	lansatberry: {
 		name: "Lansat Berry",
@@ -3016,6 +3075,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 85,
 		gen: 1,
+		rating: 0,
 	},
 	leek: {
 		name: "Leek",
@@ -3046,6 +3106,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 234,
 		gen: 2,
+		rating: 3,
 	},
 	leppaberry: {
 		name: "Leppa Berry",
@@ -3115,6 +3176,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 270,
 		gen: 4,
+		rating: 3,
 	},
 	lightball: {
 		name: "Light Ball",
@@ -3193,6 +3255,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1110,
 		gen: 8,
+		rating: 0,
 	},
 	lucarionite: {
 		name: "Lucarionite",
@@ -3350,6 +3413,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 215,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	magmarizer: {
 		name: "Magmarizer",
@@ -3359,6 +3423,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 323,
 		gen: 4,
+		rating: 0,
 	},
 	magnet: {
 		name: "Magnet",
@@ -3400,6 +3465,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 161,
 		gen: 3,
+		rating: 3,
 	},
 	magostberry: {
 		name: "Magost Berry",
@@ -3413,6 +3479,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 176,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	mail: {
 		name: "Mail",
@@ -3433,6 +3500,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1861,
 		gen: 9,
+		rating: 0,
 	},
 	manectite: {
 		name: "Manectite",
@@ -3493,6 +3561,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 2404,
 		gen: 9,
+		rating: 0,
 	},
 	mawilite: {
 		name: "Mawilite",
@@ -3579,6 +3648,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 219,
 		gen: 3,
+		rating: 3,
 	},
 	metagrossite: {
 		name: "Metagrossite",
@@ -3855,6 +3925,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 81,
 		gen: 1,
+		rating: 0,
 	},
 	muscleband: {
 		name: "Muscle Band",
@@ -3898,6 +3969,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 166,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	nestball: {
 		name: "Nest Ball",
@@ -3940,6 +4012,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 178,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	normalgem: {
 		name: "Normal Gem",
@@ -4013,6 +4086,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 103,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	oranberry: {
 		name: "Oran Berry",
@@ -4035,6 +4109,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 155,
 		gen: 3,
+		rating: 0,
 	},
 	ovalstone: {
 		name: "Oval Stone",
@@ -4044,6 +4119,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 110,
 		gen: 4,
+		rating: 0,
 	},
 	pamtreberry: {
 		name: "Pamtre Berry",
@@ -4057,6 +4133,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 180,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	parkball: {
 		name: "Park Ball",
@@ -4134,6 +4211,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 151,
 		gen: 3,
+		rating: 1,
 	},
 	persimberry: {
 		name: "Persim Berry",
@@ -4153,6 +4231,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 156,
 		gen: 3,
+		rating: 1,
 	},
 	petayaberry: {
 		name: "Petaya Berry",
@@ -4222,6 +4301,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 168,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	pinsirite: {
 		name: "Pinsirite",
@@ -4266,6 +4346,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 573,
 		gen: 5,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	poisonbarb: {
 		name: "Poison Barb",
@@ -4343,6 +4424,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onEat: false,
 		num: 169,
 		gen: 3,
+		rating: 0,
 	},
 	poweranklet: {
 		name: "Power Anklet",
@@ -4356,6 +4438,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 293,
 		gen: 4,
+		rating: 0,
 	},
 	powerband: {
 		name: "Power Band",
@@ -4369,6 +4452,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 292,
 		gen: 4,
+		rating: 0,
 	},
 	powerbelt: {
 		name: "Power Belt",
@@ -4382,6 +4466,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 290,
 		gen: 4,
+		rating: 0,
 	},
 	powerbracer: {
 		name: "Power Bracer",
@@ -4395,6 +4480,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 289,
 		gen: 4,
+		rating: 0,
 	},
 	powerherb: {
 		onChargeMove(pokemon, target, move) {
@@ -4412,6 +4498,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 271,
 		gen: 4,
+		rating: 3,
 	},
 	powerlens: {
 		name: "Power Lens",
@@ -4425,6 +4512,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 291,
 		gen: 4,
+		rating: 0,
 	},
 	powerweight: {
 		name: "Power Weight",
@@ -4438,6 +4526,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 294,
 		gen: 4,
+		rating: 0,
 	},
 	premierball: {
 		name: "Premier Ball",
@@ -4465,6 +4554,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 537,
 		gen: 5,
+		rating: 0,
 	},
 	protectivepads: {
 		name: "Protective Pads",
@@ -4484,6 +4574,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 321,
 		gen: 4,
+		rating: 0,
 	},
 	psychicgem: {
 		name: "Psychic Gem",
@@ -4580,6 +4671,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onEat: false,
 		num: 171,
 		gen: 3,
+		rating: 0,
 	},
 	quickball: {
 		name: "Quick Ball",
@@ -4633,6 +4725,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 177,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	rarebone: {
 		name: "Rare Bone",
@@ -4642,6 +4735,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 106,
 		gen: 4,
+		rating: 0,
 	},
 	rawstberry: {
 		name: "Rawst Berry",
@@ -4663,6 +4757,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 152,
 		gen: 3,
+		rating: 1,
 	},
 	razorclaw: {
 		name: "Razor Claw",
@@ -4711,6 +4806,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 164,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	reapercloth: {
 		name: "Reaper Cloth",
@@ -4720,6 +4816,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 325,
 		gen: 4,
+		rating: 0,
 	},
 	redcard: {
 		name: "Red Card",
@@ -4778,6 +4875,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1115,
 		gen: 8,
+		rating: 0,
 	},
 	rindoberry: {
 		name: "Rindo Berry",
@@ -4885,6 +4983,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 540,
 		gen: 5,
+		rating: 3,
 	},
 	roomservice: {
 		name: "Room Service",
@@ -4918,6 +5017,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 99,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	roseincense: {
 		name: "Rose Incense",
@@ -4977,6 +5077,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onEat() { },
 		num: 212,
 		gen: 4,
+		rating: 1,
 	},
 	rustedshield: {
 		name: "Rusted Shield",
@@ -5027,6 +5128,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 647,
 		gen: 6,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	safariball: {
 		name: "Safari Ball",
@@ -5034,6 +5136,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 5,
 		gen: 1,
 		isPokeball: true,
+		isNonstandard: "Unobtainable",
 	},
 	safetygoggles: {
 		name: "Safety Goggles",
@@ -5062,6 +5165,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 711,
 		gen: 6,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	salacberry: {
 		name: "Salac Berry",
@@ -5082,6 +5186,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 203,
 		gen: 3,
+		rating: 3,
 	},
 	salamencite: {
 		name: "Salamencite",
@@ -5218,6 +5323,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 107,
 		gen: 4,
+		rating: 0,
 	},
 	shockdrive: {
 		name: "Shock Drive",
@@ -5320,6 +5426,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 105,
 		gen: 4,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	skyplate: {
 		name: "Sky Plate",
@@ -5464,6 +5571,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 179,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	splashplate: {
 		name: "Splash Plate",
@@ -5511,6 +5619,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 499,
 		gen: 2,
 		isPokeball: true,
+		isNonstandard: "Unobtainable",
 	},
 	starfberry: {
 		name: "Starf Berry",
@@ -5552,6 +5661,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1114,
 		gen: 8,
+		rating: 0,
 	},
 	steelixite: {
 		name: "Steelixite",
@@ -5683,6 +5793,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1109,
 		gen: 8,
+		rating: 0,
 	},
 	sunstone: {
 		name: "Sun Stone",
@@ -5692,6 +5803,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 80,
 		gen: 2,
+		rating: 0,
 	},
 	swampertite: {
 		name: "Swampertite",
@@ -5715,6 +5827,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1116,
 		gen: 8,
+		rating: 0,
 	},
 	syrupyapple: {
 		name: "Syrupy Apple",
@@ -5724,6 +5837,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 2402,
 		gen: 9,
+		rating: 0,
 	},
 	tamatoberry: {
 		name: "Tamato Berry",
@@ -5736,6 +5850,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onEat: false,
 		num: 174,
 		gen: 3,
+		rating: 0,
 	},
 	tangaberry: {
 		name: "Tanga Berry",
@@ -5780,6 +5895,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 1117,
 		gen: 8,
+		rating: 0,
 	},
 	terrainextender: {
 		name: "Terrain Extender",
@@ -5832,6 +5948,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 83,
 		gen: 1,
+		rating: 0,
 	},
 	timerball: {
 		name: "Timer Ball",
@@ -5883,6 +6000,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1130,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr01: {
@@ -5893,6 +6011,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1131,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr02: {
@@ -5903,6 +6022,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 730,
 		num: 1132,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr03: {
@@ -5913,6 +6033,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 731,
 		num: 1133,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr04: {
@@ -5923,6 +6044,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 731,
 		num: 1134,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr05: {
@@ -5933,6 +6055,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 735,
 		num: 1135,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr06: {
@@ -5943,6 +6066,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 735,
 		num: 1136,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr07: {
@@ -5953,6 +6077,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 722,
 		num: 1137,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr08: {
@@ -5963,6 +6088,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 733,
 		num: 1138,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr09: {
@@ -5973,6 +6099,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 733,
 		num: 1139,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr10: {
@@ -5983,6 +6110,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 725,
 		num: 1140,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr11: {
@@ -5993,6 +6121,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1141,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr12: {
@@ -6003,6 +6132,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1142,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr13: {
@@ -6013,6 +6143,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1143,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr14: {
@@ -6023,6 +6154,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1144,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr15: {
@@ -6033,6 +6165,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 730,
 		num: 1145,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr16: {
@@ -6043,6 +6176,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 731,
 		num: 1146,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr17: {
@@ -6053,6 +6187,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1147,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr18: {
@@ -6063,6 +6198,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 727,
 		num: 1148,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr19: {
@@ -6073,6 +6209,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1149,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr20: {
@@ -6083,6 +6220,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1150,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr21: {
@@ -6093,6 +6231,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 722,
 		num: 1151,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr22: {
@@ -6103,6 +6242,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 724,
 		num: 1152,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr23: {
@@ -6113,6 +6253,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 725,
 		num: 1153,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr24: {
@@ -6123,6 +6264,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 736,
 		num: 1154,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr25: {
@@ -6133,6 +6275,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1155,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr26: {
@@ -6143,6 +6286,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1156,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr27: {
@@ -6153,6 +6297,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1157,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr28: {
@@ -6163,6 +6308,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 727,
 		num: 1158,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr29: {
@@ -6173,6 +6319,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1159,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr30: {
@@ -6183,6 +6330,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1160,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr31: {
@@ -6193,6 +6341,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 729,
 		num: 1161,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr32: {
@@ -6203,6 +6352,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 737,
 		num: 1162,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr33: {
@@ -6213,6 +6363,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 728,
 		num: 1163,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr34: {
@@ -6223,6 +6374,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1164,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr35: {
@@ -6233,6 +6385,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1165,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr36: {
@@ -6243,6 +6396,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 730,
 		num: 1166,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr37: {
@@ -6253,6 +6407,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 737,
 		num: 1167,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr38: {
@@ -6263,6 +6418,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1168,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr39: {
@@ -6273,6 +6429,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 722,
 		num: 1169,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr40: {
@@ -6283,6 +6440,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1170,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr41: {
@@ -6293,6 +6451,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 730,
 		num: 1171,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr42: {
@@ -6303,6 +6462,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1172,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr43: {
@@ -6313,6 +6473,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 730,
 		num: 1173,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr44: {
@@ -6323,6 +6484,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1174,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr45: {
@@ -6333,6 +6495,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 731,
 		num: 1175,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr46: {
@@ -6343,6 +6506,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 729,
 		num: 1176,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr47: {
@@ -6353,6 +6517,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 736,
 		num: 1177,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr48: {
@@ -6363,6 +6528,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 722,
 		num: 1178,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr49: {
@@ -6373,6 +6539,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1179,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr50: {
@@ -6383,6 +6550,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 732,
 		num: 1180,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr51: {
@@ -6393,6 +6561,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 736,
 		num: 1181,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr52: {
@@ -6403,6 +6572,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 729,
 		num: 1182,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr53: {
@@ -6413,6 +6583,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 722,
 		num: 1183,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr54: {
@@ -6423,6 +6594,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 724,
 		num: 1184,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr55: {
@@ -6433,6 +6605,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 730,
 		num: 1185,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr56: {
@@ -6443,6 +6616,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 722,
 		num: 1186,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr57: {
@@ -6453,6 +6627,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 724,
 		num: 1187,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr58: {
@@ -6463,6 +6638,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 737,
 		num: 1188,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr59: {
@@ -6473,6 +6649,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 732,
 		num: 1189,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr60: {
@@ -6483,6 +6660,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 727,
 		num: 1190,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr61: {
@@ -6493,6 +6671,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 727,
 		num: 1191,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr62: {
@@ -6503,6 +6682,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 736,
 		num: 1192,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr63: {
@@ -6513,6 +6693,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 726,
 		num: 1193,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr64: {
@@ -6523,6 +6704,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 722,
 		num: 1194,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr65: {
@@ -6533,6 +6715,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 732,
 		num: 1195,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr66: {
@@ -6543,6 +6726,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 723,
 		num: 1196,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr67: {
@@ -6553,6 +6737,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 725,
 		num: 1197,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr68: {
@@ -6563,6 +6748,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 737,
 		num: 1198,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr69: {
@@ -6573,6 +6759,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1199,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr70: {
@@ -6583,6 +6770,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 729,
 		num: 1200,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr71: {
@@ -6593,6 +6781,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 732,
 		num: 1201,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr72: {
@@ -6603,6 +6792,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 732,
 		num: 1202,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr73: {
@@ -6613,6 +6803,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 724,
 		num: 1203,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr74: {
@@ -6623,6 +6814,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 729,
 		num: 1204,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr75: {
@@ -6633,6 +6825,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 726,
 		num: 1205,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr76: {
@@ -6643,6 +6836,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 726,
 		num: 1206,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr77: {
@@ -6653,6 +6847,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 732,
 		num: 1207,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr78: {
@@ -6663,6 +6858,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 724,
 		num: 1208,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr79: {
@@ -6673,6 +6869,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 729,
 		num: 1209,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr80: {
@@ -6683,6 +6880,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 733,
 		num: 1210,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr81: {
@@ -6693,6 +6891,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 737,
 		num: 1211,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr82: {
@@ -6703,6 +6902,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1212,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr83: {
@@ -6713,6 +6913,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1213,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr84: {
@@ -6723,6 +6924,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 731,
 		num: 1214,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr85: {
@@ -6733,6 +6935,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 721,
 		num: 1215,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr86: {
@@ -6743,6 +6946,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 733,
 		num: 1216,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr87: {
@@ -6753,6 +6957,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 725,
 		num: 1217,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr88: {
@@ -6763,6 +6968,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 730,
 		num: 1218,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr89: {
@@ -6773,6 +6979,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 723,
 		num: 1219,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr90: {
@@ -6783,6 +6990,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 738,
 		num: 1220,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr91: {
@@ -6793,6 +7001,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 724,
 		num: 1221,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr92: {
@@ -6803,6 +7012,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 738,
 		num: 1222,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr93: {
@@ -6813,6 +7023,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 737,
 		num: 1223,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr94: {
@@ -6823,6 +7034,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 725,
 		num: 1224,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr95: {
@@ -6833,6 +7045,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 737,
 		num: 1225,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr96: {
@@ -6843,6 +7056,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 727,
 		num: 1226,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr97: {
@@ -6853,6 +7067,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 734,
 		num: 1227,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr98: {
@@ -6863,6 +7078,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 731,
 		num: 1228,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	tr99: {
@@ -6873,6 +7089,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		spritenum: 722,
 		num: 1229,
 		gen: 8,
+		rating: 0,
 		isNonstandard: "Past",
 	},
 	twistedspoon: {
@@ -6930,6 +7147,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 2403,
 		gen: 9,
+		rating: 0,
 	},
 	upgrade: {
 		name: "Up-Grade",
@@ -6939,6 +7157,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 252,
 		gen: 2,
+		rating: 0,
 	},
 	utilityumbrella: {
 		name: "Utility Umbrella",
@@ -7069,6 +7288,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 181,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	waveincense: {
 		name: "Wave Incense",
@@ -7137,6 +7357,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 167,
 		gen: 3,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	whippeddream: {
 		name: "Whipped Dream",
@@ -7147,6 +7368,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 646,
 		gen: 6,
 		isNonstandard: "Past",
+		rating: 0,
 	},
 	whiteherb: {
 		name: "White Herb",
@@ -7227,6 +7449,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 160,
 		gen: 3,
+		rating: 3,
 	},
 	wiseglasses: {
 		name: "Wise Glasses",
@@ -7344,6 +7567,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 155,
 		gen: 2,
 		isNonstandard: "Past",
+		rating: 1,
 	},
 	bitterberry: {
 		name: "Bitter Berry",
@@ -7364,6 +7588,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 156,
 		gen: 2,
 		isNonstandard: "Past",
+		rating: 1,
 	},
 	burntberry: {
 		name: "Burnt Berry",
@@ -7386,6 +7611,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 153,
 		gen: 2,
 		isNonstandard: "Past",
+		rating: 1,
 	},
 	goldberry: {
 		name: "Gold Berry",
@@ -7432,6 +7658,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 152,
 		gen: 2,
 		isNonstandard: "Past",
+		rating: 1,
 	},
 	mintberry: {
 		name: "Mint Berry",
@@ -7560,6 +7787,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 149,
 		gen: 2,
 		isNonstandard: "Past",
+		rating: 1,
 	},
 	psncureberry: {
 		name: "PSN Cure Berry",
@@ -7582,6 +7810,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 151,
 		gen: 2,
 		isNonstandard: "Past",
+		rating: 1,
 	},
 
 	// CAP items
